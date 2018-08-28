@@ -1,0 +1,387 @@
+/*
+Theme Name: CDLindsay
+Author: Samuel Dionne
+Description: Custom Theme for Clinique Dentaire Lindsay
+Version: 0.0.1
+*/
+
+/*
+    Colors
+      - primary: #4a6a84
+      - secondary: #f3f4f8
+      - links: #9db5be
+      - accent: #960137
+*/
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  color: #4a6a84;
+  background: #f3f4f8;
+  background: linear-gradient(to bottom, #fff, #b4c8d5 306px, #f3f4f8 306px);
+}
+
+a {
+  color: #9db5be;
+}
+
+a.active, a:hover {
+  color: #4a6a84;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.3em;
+}
+
+h5, h6 {
+  margin-bottom: 0;
+}
+
+h6 {
+  font-weight: bolder;
+}
+
+hr {
+  margin: 0.5em 0;
+  border-color: #ffffff;
+}
+
+/* Header */
+.btn-primary {
+  background: #960137;
+  border-color: #7d012e;
+}
+
+.btn-primary:hover {
+  background: #630124;
+  border-color: #400017;
+}
+
+.btn-secondary {
+  background: #4a6a84;
+  border-color: #415d74;
+}
+
+.btn-secondary:hover {
+  background: #385063;
+  border-color: #2b3d4c;
+}
+
+.header-top {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-top .nav .nav-link {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  padding: 0.5em;
+}
+
+.header-top .nav .nav-link.active {
+  color: #4a6a84;
+}
+
+.hero {
+  height: 399px;
+
+  color: #ffffff;
+  background: #4a6a84;
+  border-radius: 0.3em;
+
+  margin-bottom: 2em;
+
+  overflow: hidden;
+}
+
+.hero .content {
+  height: 400px;
+
+  background-size: cover;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+.hero-button {
+  display: table;
+
+  height: 133px;
+  width: 100%;
+
+  color: #ffffff;
+  line-height: 0.8em;
+  font-size: 1.75em;
+  font-weight: bold;
+
+  padding: 0 0.5em;
+
+  border: 1px solid transparent;
+  border-radius: 0.3em 0 0 0.3em;
+}
+
+a.hero-button:hover,
+a.hero-button:focus,
+a.hero-button.active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a.hero-button.active {
+  background: #960137;
+  border-color: #7d012e;
+}
+
+a.hero-button:last-child {
+  border-radius: 0.3em 0 0 0;
+}
+
+.hero-button .fas {
+  font-size: 1.5em;
+  margin-right: 1em;
+}
+
+.hero-button .fas,
+.hero-button div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.fa-mobile-alt {
+  padding-top: 0.26em;
+}
+
+.fa-calendar-alt {
+  padding-bottom: 0.16em;
+}
+
+.fa-info-circle {
+  padding-bottom: 0.085em;
+}
+
+.hero-button div {
+  padding-left: 0.25em;
+}
+
+.hero-button small {
+  display: block;
+
+  font-size: 0.5em;
+  font-weight: normal;
+}
+
+/* Footer */
+.footer {
+  background-color: #b4c8d5;
+
+  padding: 1em 0;
+  margin-top: 2em;
+}
+
+.footer .col-md-2 {
+  border-right: 1px solid #9db5be;
+}
+
+.footer a {
+  color: #4a6a84;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer h5 {
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+.footer .nav-link {
+  font-size: 0.75em;
+  padding: 0.5em 0;
+}
+
+.footer img {
+  height: 76px;
+  margin-bottom: 2em;
+}
+
+/* Clinic page */
+.nav-tabs {
+  margin-bottom: 1em;
+}
+
+.nav-tabs .nav-link {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background: none;
+  border-bottom-color: #f3f4f8;
+}
+
+/* Team page */
+.team-header {
+  margin-bottom: 1.5em;
+}
+
+.team-header .btn {
+  margin-top: 0.8em;
+}
+
+.team-member {
+  margin-bottom: 1em;
+}
+
+/* Service page */
+.service-item {
+  margin-bottom: 2em;
+}
+
+/* FAQ page */
+.faq {
+  white-space: normal;
+  text-align: left;
+}
+
+/* Contact page */
+.contact strong {
+  display: block;
+  margin-bottom: 1.25em;
+}
+
+.contact .map {
+  max-width: 100%;
+  margin: 1em 0;
+}
+
+.contact textarea {
+  height: 4em;
+}
+
+.contact ul {
+  list-style: none;
+
+  font-size: 0.75em;
+
+  padding: 0;
+  margin: 0;
+}
+
+.container.contact a:hover {
+  color: #ffffff;
+}
+
+/* Rendez-vous page */
+form {
+  padding: 0 0 0.75em;
+}
+
+.rendez-vous h2,
+.contact h2 {
+  font-weight: 100;
+  text-transform: uppercase;
+
+  padding: 0.375em 0 0;
+}
+
+label {
+  font-size: 0.875em;
+  margin-bottom: 0;
+}
+
+.rendez-vous textarea {
+  height: 7.3em;
+}
+
+/* Responsive */
+@media (max-width: 991.98px) {
+  body {
+    font-size: 12px;
+  }
+
+  .header-top .nav .nav-link {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h5 {
+    margin-top: 1em;
+  }
+
+  .contact form h2 {
+    margin-top: 1em;
+  }
+
+  .hero,
+  .hero .content {
+    min-height: 200px;
+    height: auto;
+  }
+
+  .hero-button {
+    display: block;
+    float: left;
+
+    width: 33.33%;
+    height: auto;
+
+    font-size: 1em;
+    text-align: center;
+    padding: 0.5em 0 1em;
+
+    border-radius: 0.3em 0.3em 0 0;
+  }
+
+  .hero-button .fas {
+    display: inline;
+    line-height: 1.5em;
+    margin: 0;
+  }
+
+  .hero-button div {
+    display: block;
+  }
+
+  .hero-button small {
+    font-size: 0.75em;
+    line-height: 1.5em;
+  }
+
+  #menu-main-menu {
+    margin-top: 1em;
+
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+  }
+
+  .team-member img,
+  .team-header img,
+  .row.contact img {
+    width: 40% !important;
+  }
+
+  .footer .nav-link {
+    font-size: 1.275em;
+  }
+}
+
+@media (max-width: 575.98px) {
+  form h2 {
+    font-size: 1.875em;
+  }
+
+  .header-top .nav .nav-link {
+    font-size: 1.25em;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Centre dentaire Lindsay",
+  "short_name": "CD Lindsay",
+  "start_url": ".",
+  "display": "minimal-ui",
+  "background_color": "#f7fafb",
+  "description": "Clinique familiale situés au centre-ville de Drummondville offrant tous les soins généraux de la dentisterie.",
+  "lang": "fr-CA",
+  "orientation": "portrait"
+}

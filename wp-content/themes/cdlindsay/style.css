@@ -1,0 +1,423 @@
+/*
+Theme Name: CDLindsay
+Author: Samuel Dionne
+Description: Custom Theme for Clinique Dentaire Lindsay
+Version: 0.0.1
+*/
+
+/*
+    Colors
+      - primary: #4a6a84
+      - secondary: #f3f4f8
+      - links: #9db5be
+      - accent: #960137
+
+      #f7fafb
+*/
+
+html, body {
+  min-height: 100%;
+  height: 100%;
+
+  overflow-x: hidden;
+}
+
+body {
+  color: #4a6a84;
+  background: #f7fafb;
+
+  font-size: 16px;
+}
+
+a {
+  color: #9db5be;
+}
+
+a.active, a:hover {
+  color: #4a6a84;
+  text-decoration: none;
+}
+
+#breadcrumbs {
+  display: block;
+  font-size: 0.5em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h2, h5 {
+  color: #333333;
+}
+
+h3.separator {
+  position: relative;
+
+  color: #333333;
+
+  padding: 0 0 20px;
+  margin-bottom: 45px;
+}
+
+h3.separator:before {
+  content: '';
+
+  width: 65px;
+  height: 2px;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  background: #4a6a84;
+}
+
+h3.separator + h2 {
+  margin-top: -20px;
+  margin-bottom: 45px;
+}
+
+.page-content p {
+  margin: 10px 0 30px;
+}
+
+.section {
+  padding: 45px 0;
+}
+
+.section.white,
+.row.white {
+  background: #ffffff;
+}
+
+/**/
+.btn-primary {
+  background: #4a6a84;
+  border-color: #415d74;
+}
+
+.btn-primary:hover {
+  color: #ffffff !important;
+  background: #385063;
+  border-color: #2b3d4c;
+}
+
+.btn-outline-primary {
+  color: #415d74;
+  border-color: #415d74;
+}
+
+.btn-outline-primary:hover {
+  color: #ffffff !important;
+  background: #385063;
+  border-color: #2b3d4c;
+}
+
+.navbar,
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand img {
+  height: 55px;
+}
+
+.header,
+.footer {
+  background-color: #4a6a84;
+  background: linear-gradient(to right, #415d74, #2b3d4c);
+  color: #ffffff;
+}
+
+.header.hero {
+  background-position: center center;
+  background-size: cover;
+
+  height: calc(100% - 205px);
+  min-height: 725px;
+
+  position: relative;
+
+  transition: all 3s ease;
+}
+
+.header.hero::before {
+  content: '';
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.header-top {
+  width: 100%;
+  height: 66px;
+
+  background: linear-gradient(to right, rgba(74, 106, 132, 0.4), rgba(74, 106, 132, 0.4), #415d74, #2b3d4c);
+  background-size: 400% 400%;
+  background-position: 0% 50%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+  position: fixed;
+  z-index: 100;
+
+  transition: all 2s ease;
+}
+
+.scrolled .header-top {
+  background-position: 80% 50%;
+  border-color: #4a6a84;
+}
+
+.header-top .nav .nav-link {
+  height: 66px;
+  line-height: 50px;
+
+  color: rgba(255, 255, 255, 0.8);
+
+  font-size: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  border-bottom: 3px solid transparent;
+  transition: all 250ms ease;
+}
+
+.header-top .nav .nav-link:hover,
+.header-top .nav .nav-link.active {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.header-top + .container {
+  padding-top: 110px;
+  padding-bottom: 44px;
+}
+
+.header-details {
+  position: relative;
+}
+
+.header-details .container {
+  height: 262px;
+
+  margin: -50px auto 30px;
+}
+
+.header-details .row {
+  height: 100%;
+}
+
+.header-details .row,
+.row.white {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.header-details .row > div,
+.row.white > div {
+  border-bottom: 7px solid #4a6a84;
+  background: #ffffff;
+
+  padding: 30px;
+}
+
+.header-details h2,
+.header-details h3,
+.header-details p {
+  margin-bottom: 20px;
+}
+
+.header-details h2 a,
+h3.separator + h2 a {
+  color: #333333;
+}
+
+.header-details .fas {
+  margin-right: 0.2em;
+}
+
+/* Timetable */
+.timetable {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  font-size: 0.875em;
+}
+
+.timetable li {
+  color: #333333;
+  font-weight: bold;
+
+  border-bottom: 1px solid #ededed;
+
+  padding: 12px 0;
+}
+
+.timetable li:last-child {
+  border-bottom: 0;
+}
+
+.timetable strong {
+  float: right;
+
+  color: #4a6a84;
+}
+
+/* Dentist */
+.contact a,
+.contact-info a {
+  display: block;
+}
+
+.contact-info small {
+  text-transform: uppercase;
+}
+
+.contact h5 {
+  margin-bottom: 16px;
+}
+
+.contact-info {
+  padding: 20px;
+}
+
+.contact:hover {
+  display: block;
+  background: #ffffff;
+  box-shadow: 8px 8px 60px rgba(6, 30, 52, 0.1);
+}
+
+/* Service */
+.service-item {
+  /*margin-bottom: 75px;*/
+}
+
+.container iframe {
+  display: block;
+  margin: 0 auto 45px;
+
+  max-width: 100%;
+}
+
+/* Contact */
+.with-side {
+  position: relative;
+
+  min-height: 400px;
+}
+
+textarea {
+  height: 6em;
+}
+
+.side {
+  position: absolute;
+  left: 50%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  margin-left: 15px;
+  overflow: hidden;
+}
+
+.side img {
+  height: 100%;
+  min-width: 100%;
+}
+
+/* Footer */
+.footer {
+  padding: 30px 0;
+}
+
+.footer h5 {
+  color: #ffffff;
+}
+
+.footer img {
+  max-width: 100%;
+}
+
+/* Responsive */
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.75em;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .header.hero {
+    height: calc(100% - 280px);
+    min-height: 200px;
+  }
+
+  .navbar-brand img {
+    margin-top: 5px;
+  }
+
+  .header-details .container {
+    height: auto;
+  }
+
+  .header .nav-item {
+    width: 100%;
+    background: linear-gradient(to right, #415d74, #2b3d4c);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .service-item {
+    margin-bottom: 60px;
+  }
+
+  .service-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer .col-md-2 {
+    margin-bottom: 30px;
+  }
+
+  .navbar-collapse {
+    position: relative;
+    margin: 6px -16px 0;
+  }
+
+  .navbar-collapse a.phone {
+    position: absolute;
+    right: 16px;
+    bottom: 15px;
+  }
+
+  .header-top .nav .nav-link:hover,
+  .header-top .nav .nav-link.active {
+    border-color: transparent;
+  }
+
+  .header-top .nav .nav-link.active::before {
+    content: '▸';
+    position: absolute;
+    left: 5px;
+  }
+}
