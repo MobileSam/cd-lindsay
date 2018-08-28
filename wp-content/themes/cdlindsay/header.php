@@ -99,7 +99,7 @@
           <ul class="timetable">
             <li>Lundi - Mardi<strong>8:00 - 19:00</strong></li>
             <li>Mercredi <strong>8:00 - 17:00</strong></li>
-            <li>Jeudi - Vendredi <strong>8:00 - 17:30</strong></li>
+            <li>Jeudi - Vendredi <strong>8:00 - 17:00</strong></li>
           </ul>
         </div>
 
