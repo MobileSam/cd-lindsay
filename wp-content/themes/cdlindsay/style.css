@@ -33,6 +33,13 @@ a {
   color: #9db5be;
 }
 
+p > a,
+.text-link {
+  color: #4a6a84;
+  text-decoration: none;
+  cursor: initial;
+}
+
 a.active, a:hover {
   color: #4a6a84;
   text-decoration: none;
