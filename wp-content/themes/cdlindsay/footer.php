@@ -113,7 +113,8 @@
 
   function animateHero() {
     var $header = $('.header.hero');
-    var images = ['slider-01', 'slider-02', 'slider-03', 'slider-04', 'slider-05', 'slider-06', 'slider-07'];
+    var images = ['clinique-dentaire-centre-dentaire-lindsay', 'outils-centre-dentaire-lindsay', 'joindre-centre-dentaire-lindsay', 'salle-de-consultation-centre-dentaire-lindsay', 'sterilisation-centre-dentaire-lindsay', 'salle-de-consultation-centre-dentaire-lindsay-2', 'radiographie-centre-dentaire-lindsay'];
+
 
     setTimeout(function () {
       $(images).each(function (i, img) {
@@ -142,7 +143,7 @@
       $body.toggleClass('scrolled', $document.scrollTop() > 0);
     });
 
-    $('.header.hero').css('background-image', 'url(/wp-content/themes/cdlindsay/img/slider-01.png)');
+    $('.header.hero').css('background-image', 'url(/wp-content/themes/cdlindsay/img/clinique-dentaire-centre-dentaire-lindsay.png)');
     animateHero();
     handleNewPatient();
 

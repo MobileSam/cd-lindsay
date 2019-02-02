@@ -36,7 +36,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="<?php echo get_bloginfo('wpurl'); ?>">
-          <img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="<?php echo get_bloginfo('name'); ?>"/>
+          <img src="<?php bloginfo('template_url'); ?>/img/logo-centre-dentaire-lindsay.png" alt="logo-centre-dentaire-lindsay"/>
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -51,7 +51,7 @@
             'walker' => new bootstrap_4_walker_nav_menu()
           )); ?>
 
-          <a class="btn btn-outline-light phone d-sm-none" href="tel:(819) 477 2020"><i
+          <a class="btn btn-outline-light phone d-sm-none" href="tel:819-477-2020"><i
                     class="fas fa-mobile-alt"></i></a>
         </div>
       </div>
@@ -106,16 +106,16 @@
         <div class="col-md">
           <h3>Prendre rendez-vous</h3>
 
-          <p>Pour obtenir un rendez-vous, vous pouvez nous téléphoner ou le prendre en ligne. Ensuite, vous recevrez une confirmation ou une proposition de rendez-vous.</p>
+          <p>Pour obtenir un rendez-vous au Centre dentaire Lindsay, vous pouvez nous téléphoner ou le prendre en ligne. Ensuite, vous recevrez une confirmation ou une proposition de rendez-vous.</p>
 
-          <a class="btn btn-outline-primary" href="/cdlindsay/rendez-vous/">contactez-nous</a>
+          <a class="btn btn-outline-primary" href="/cdlindsay/rendez-vous/">Contactez notre clinique dentaire</a>
         </div>
 
         <div class="col-md-12 col-lg">
-          <h3>Urgences</h3>
-          <h2><i class="fas fa-mobile-alt"></i> <a href="tel:(819) 477 2020">(819) 477 2020</a></h2>
+          <h3>Urgences dentaires</h3>
+          <h2><i class="fas fa-mobile-alt"></i> <a href="tel:819-477-2020">819 477-2020</a></h2>
 
-          <p>Pour toutes urgences, merci de nous contacter par téléphone.</p>
+          <p>Pour toutes urgences dentaires, merci de contacter le Centre dentaire Lindsay par téléphone.</p>
         </div>
       </div>
     </div>

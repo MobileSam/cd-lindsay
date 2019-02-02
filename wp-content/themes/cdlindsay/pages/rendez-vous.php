@@ -48,7 +48,7 @@ if (isset($_POST['courriel'])) {
       <br/><br/>
 
       <h3 class="separator">Par téléphone</h3>
-      <h2><i class="fas fa-mobile-alt"></i> <a href="tel:(819) 477 2020">(819) 477 2020</a></h2>
+      <h2><i class="fas fa-mobile-alt"></i> <a href="tel:819-477-2020">819 477-2020</a></h2>
 
       <?php if ($success): ?>
         <h4>Message bien reçu. <strong>Merci</strong></h4>
@@ -155,7 +155,7 @@ if (isset($_POST['courriel'])) {
     </div>
 
     <div class="side d-none d-lg-block">
-      <img src="<?php bloginfo('template_url'); ?>/img/rendez-vous.jpg" alt="<?php echo get_bloginfo('name'); ?>"/>
+      <img src="<?php bloginfo('template_url'); ?>/img/rendez-vous-centre-dentaire-lindsay.jpg" alt="rendez-vous-centre-dentaire-lindsay"/>
     </div>
   </div>
 

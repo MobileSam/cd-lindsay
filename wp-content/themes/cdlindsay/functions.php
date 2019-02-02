@@ -86,8 +86,8 @@ function create_custom_posts()
   register_post_type('service',
     array(
       'labels' => array(
-        'name' => __('Services'),
-        'singular_name' => __('Service'),
+        'name' => __('Services dentaires'),
+        'singular_name' => __('Service dentaire'),
         'add_new_item' => __('Ajouter un nouveau service'),
         'edit_item' => __('Modifier le service'),
         'new_item' => __('Nouveau service'),

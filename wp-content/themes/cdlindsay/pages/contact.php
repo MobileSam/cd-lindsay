@@ -36,7 +36,7 @@ $query = new WP_Query($args);
   <div class="section with-side">
     <div class="container">
       <h3 class="separator">Par téléphone</h3>
-      <h2><i class="fas fa-mobile-alt"></i> <a href="tel:(819) 477 2020">(819) 477 2020</a></h2>
+      <h2><i class="fas fa-mobile-alt"></i> <a href="tel:819-477-2020">819 477-2020</a></h2>
 
       <?php if ($success): ?>
         <h4>Message bien reçu. <strong>Merci</strong></h4>
@@ -111,7 +111,7 @@ $query = new WP_Query($args);
 
     <div class="side d-none d-lg-block">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2777.3383421730755!2d-72.49120352702043!3d45.884545822438184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc81164e19b9045%3A0xf6d44982b1811b29!2sCentre+Dentaire+Lindsay+Inc!5e0!3m2!1sen!2sca!4v1522616114185"
-              width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+              width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen title="adresse-centre-dentaire-lindsay"></iframe>
     </div>
   </div>
 

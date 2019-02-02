@@ -40,6 +40,10 @@ p > a,
   cursor: initial;
 }
 
+.text-danger a {
+  color: inherit;
+}
+
 a.active, a:hover {
   color: #4a6a84;
   text-decoration: none;
